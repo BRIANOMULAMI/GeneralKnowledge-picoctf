@@ -1,0 +1,14 @@
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/fixme2-py]
+└─$ python3 fixme2.py
+That is correct! Here's your flag: picoCTF{3qu4l1ty_n0t_4551gnm3nt_4863e11b}
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/fixme2-py]
+└─$    
+
+*********flag*********
+
+picoCTF{3qu4l1ty_n0t_4551gnm3nt_4863e11b}
+
+solution
+***you just have to add == here is has one = sign
+if flag == "":
