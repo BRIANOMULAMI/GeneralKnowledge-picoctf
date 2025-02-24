@@ -1,0 +1,6 @@
+***********just fix the indentation to this******************
+  
+flag = str_xor(flag_enc, 'enkidu')
+print('That is correct! Here\'s your flag: ' + flag)
+
+**********press the back tab*******************

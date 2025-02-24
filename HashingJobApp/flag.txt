@@ -1,0 +1,35 @@
+ nc saturn.picoctf.net 58237
+Please md5 hash the text between quotes, excluding the quotes: 'bad dogs'
+Answer: 
+60cc96ffdc458c98395d6e7b6878a6e9 
+60cc96ffdc458c98395d6e7b6878a6e9
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'Keanu Reeves'
+Answer: 
+4d2e1f8eabca061706aec58b21c2e199
+4d2e1f8eabca061706aec58b21c2e199
+Correct.
+Please md5 hash the text between quotes, excluding the quotes: 'the sunrise'
+Answer: 
+3652f115c238da1f79187d39b64e3fa2
+3652f115c238da1f79187d39b64e3fa2
+Correct.
+picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73}
+
+
+***************HOW TO DO IT************************
+brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/HashingJobApp]
+└─$ echo -n 'bad dogs' | md5sum
+60cc96ffdc458c98395d6e7b6878a6e9  -
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/HashingJobApp]
+└─$ echo -n 'Keanu Reeves' | md5sum
+4d2e1f8eabca061706aec58b21c2e199  -
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/HashingJobApp]
+└─$ echo -n 'the sunrise' | md5sum
+3652f115c238da1f79187d39b64e3fa2  -
+
+
+***********************flag************************************
+picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73}

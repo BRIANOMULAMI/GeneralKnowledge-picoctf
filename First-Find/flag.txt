@@ -1,0 +1,50 @@
+find . -name "uber-secret.txt"
+
+./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/First-Find/files]
+└─$ cd ./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+
+cd: not a directory: ./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/First-Find/files]
+└─$ ls
+13771.txt.utf-8  14789.txt.utf-8  acceptable_books  adequate_books  satisfactory_books
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/General-skills-picoCTF/First-Find/files]
+└─$ cd adequate_books 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/General-skills-picoCTF/First-Find/files/adequate_books]
+└─$ cd more_books    
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/First-Find/files/adequate_books/more_books]
+└─$ ls -al
+total 1968
+drwxrwxr-x 3 brian brian    4096 May 13  2022 .
+drwxrwxr-x 3 brian brian    4096 May 13  2022 ..
+drwxrwxr-x 3 brian brian    4096 May 13  2022 .secret
+-rw-rw-r-- 1 brian brian 2001199 May  1  2022 1023.txt.utf-8
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/First-Find/files/adequate_books/more_books]
+└─$ cd .secret                                                                           
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/files/adequate_books/more_books/.secret]
+└─$ cd deeper_secrets 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/adequate_books/more_books/.secret/deeper_secrets]
+└─$ cd deepest_secrets 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/more_books/.secret/deeper_secrets/deepest_secrets]
+└─$ ls    
+uber-secret.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/more_books/.secret/deeper_secrets/deepest_secrets]
+└─$ cat uber-secret.txt 
+picoCTF{f1nd_15_f457_ab443fd1}
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/more_books/.secret/deeper_secrets/deepest_secrets]
+└─$ 
+
+
+**********flag**************
+picoCTF{f1nd_15_f457_ab443fd1}
