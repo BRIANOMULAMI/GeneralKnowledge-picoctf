@@ -1,0 +1,291 @@
+┌──(brian㉿BRIAN)-[~/Desktop]
+└─$ mkdir Magikarp-Ground-Mission
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop]
+└─$ ssh ctf-player@venus.picoctf.net -p 54248
+The authenticity of host '[venus.picoctf.net]:54248 ([3.131.124.143]:54248)' can't be established.
+ED25519 key fingerprint is SHA256:P1f6h95BrSVnJbm2AKhphfHHGEyAeThib/rN/AwKs24.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '[venus.picoctf.net]:54248' (ED25519) to the list of known hosts.
+ctf-player@venus.picoctf.net's password: 
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-1041-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+ctf-player@pico-chall$ ls
+1of3.flag.txt  instructions-to-2of3.txt
+ctf-player@pico-chall$ cat 1of3.flag.txt 
+picoCTF{xxsh_
+ctf-player@pico-chall$ cat instructions-to-2of3.txt 
+Next, go to the root of all things, more succinctly `/`
+ctf-player@pico-chall$ cd /
+ctf-player@pico-chall$ ls
+2of3.flag.txt  bin  boot  dev  etc  home  instructions-to-3of3.txt  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+ctf-player@pico-chall$ cat 2of3.flag.txt 
+0ut_0f_\/\/4t3r_
+ctf-player@pico-chall$ cd instructions-to-3of3.txt 
+-bash: cd: instructions-to-3of3.txt: Not a directory
+ctf-player@pico-chall$ cat instructions-to-3of3.txt 
+Lastly, ctf-player, go home... more succinctly `~`
+ctf-player@pico-chall$ cd ~
+ctf-player@pico-chall$ ls
+3of3.flag.txt  drop-in
+ctf-player@pico-chall$ cat 3of3.flag.txt 
+71be5264}
+ctf-player@pico-chall$ ^C
+ctf-player@pico-chall$ quit
+-bash: quit: command not found
+ctf-player@pico-chall$ xit
+-bash: xit: command not found
+ctf-player@pico-chall$ exit
+logout
+Connection to venus.picoctf.net closed.
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop]
+└─$ ls
+ Codebook   FIGMA   General-skills-picoCTF   Magikarp-Ground-Mission   PROJECTS   blender-2.83.20-linux-x64   generalllll  'my documents'   mybooks   react-projects
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop]
+└─$ cd generalllll 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ ls
+Glitch-Cat
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ cd Glitch-Cat  
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ ls
+flag.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ ls
+flag.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ cd ..        
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ ls
+Codebook  Glitch-Cat  Magikarp-Ground-Mission
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ cd Glitch-Cat  
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ ls
+flag.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ subl flag.txt                            
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ cd ..        
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ ls
+Codebook  Glitch-Cat  Magikarp-Ground-Mission
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ cd Magikarp-Ground-Mission 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Magikarp-Ground-Mission]
+└─$ ls
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Magikarp-Ground-Mission]
+└─$ flag.txt                                                     
+sflag.txt: command not found
+u                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Magikarp-Ground-Mission]
+└─$ subl flag.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Magikarp-Ground-Mission]
+└─$ cd ..                     
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ ls
+Codebook  Glitch-Cat  Magikarp-Ground-Mission
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ mkdir Tab-Tab-Attac        
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll]
+└─$ cd Tab-Tab-Attac 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac]
+└─$ wget https://mercury.picoctf.net/static/72712e82413e78cc8aa8d553ffea42b0/Addadshashanammu.zip
+--2025-02-25 11:00:15--  https://mercury.picoctf.net/static/72712e82413e78cc8aa8d553ffea42b0/Addadshashanammu.zip
+Resolving mercury.picoctf.net (mercury.picoctf.net)... 18.189.209.142
+Connecting to mercury.picoctf.net (mercury.picoctf.net)|18.189.209.142|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4520 (4.4K) [application/octet-stream]
+Saving to: ‘Addadshashanammu.zip’
+
+Addadshashanammu.zip                      100%[===================================================================================>]   4.41K  --.-KB/s    in 0s      
+
+2025-02-25 11:00:17 (25.3 MB/s) - ‘Addadshashanammu.zip’ saved [4520/4520]
+
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac]
+└─$ ls
+Addadshashanammu.zip
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac]
+└─$ unzip Addadshashanammu.zip 
+Archive:  Addadshashanammu.zip
+   creating: Addadshashanammu/
+   creating: Addadshashanammu/Almurbalarammi/
+   creating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/
+   creating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/
+   creating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/
+   creating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/
+   creating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/
+  inflating: Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku/fang-of-haynekhtnamet  
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac]
+└─$ ls
+Addadshashanammu  Addadshashanammu.zip
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac]
+└─$ cd Addadshashanammu 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac/Addadshashanammu]
+└─$ ls 
+Almurbalarammi
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Tab-Tab-Attac/Addadshashanammu]
+└─$ cd Almurbalarammi  
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/generalllll/Tab-Tab-Attac/Addadshashanammu/Almurbalarammi]
+└─$ ls
+Ashalmimilkala
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/generalllll/Tab-Tab-Attac/Addadshashanammu/Almurbalarammi]
+└─$ cd Ashalmimilkala 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Tab-Tab-Attac/Addadshashanammu/Almurbalarammi/Ashalmimilkala]
+└─$ ls
+Assurnabitashpi
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Tab-Tab-Attac/Addadshashanammu/Almurbalarammi/Ashalmimilkala]
+└─$ cd Assurnabitashpi 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi]
+└─$ ls
+Maelkashishi
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi]
+└─$ cd Maelkashishi   
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi]
+└─$ ls
+Onnissiralis
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi]
+└─$ cd Onnissiralis 
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis]
+└─$ ls
+Ularradallaku
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis]
+└─$ cd Ularradallaku     
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku]
+└─$ ls
+fang-of-haynekhtnamet
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku]
+8#TT 1tt$D���o�N-haynekhtnamet 
+�� ��0)@▒aynekht(;▒�                                                                                                                                                                      2221a31840f68a978261097ecadac2, not stripped
+┌──(brian㉿BRIAN)-[~/…/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku]
+└─$ strings fang-of-haynekhtnamet                                                                                          
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+puts
+__cxa_finalize
+__libc_start_main
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+AWAVI
+AUATL
+[]A\A]A^A_
+*ZAP!* picoCTF{l3v3l_up!_t4k3_4_r35t!_6f332f10}
+;*3$"
+GCC: (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.7698
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+fang-of-haynekhtnamet.c
+__FRAME_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+_ITM_deregisterTMCloneTable
+puts@@GLIBC_2.2.5
+_edata
+__libc_start_main@@GLIBC_2.2.5
+__data_start
+__gmon_start__
+__dso_handle
+_IO_stdin_used
+__libc_csu_init
+__bss_start
+main
+__TMC_END__
+_ITM_registerTMCloneTable
+__cxa_finalize@@GLIBC_2.2.5
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.data
+.bss
+.comment
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/…/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku]
+└─$ 

@@ -1,0 +1,18 @@
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ nc saturn.picoctf.net 54997
+'picoCTF{gl17ch_m3_n07_' + chr(0x61) + chr(0x34) + chr(0x33) + chr(0x39) + chr(0x32) + chr(0x64) + chr(0x32) + chr(0x65) + '}'
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/generalllll/Glitch-Cat]
+└─$ python3          
+Python 3.12.8 (main, Jan 11 2025, 09:42:09) [GCC 14.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print(chr(0x61) + chr(0x34) + chr(0x33) + chr(0x39) + chr(0x32) + chr(0x64) + chr(0x32) + chr(0x65))
+a4392d2e
+>>> 
+zsh: suspended  python3
+
+
+*****************flag************************
+
+picoCTF{gl17ch_m3_n07_a4392d2e}

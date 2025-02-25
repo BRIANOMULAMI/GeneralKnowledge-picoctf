@@ -1,0 +1,42 @@
+ wget https://artifacts.picoctf.net/c/1/code.py             
+--2025-02-25 10:47:25--  https://artifacts.picoctf.net/c/1/code.py
+Resolving artifacts.picoctf.net (artifacts.picoctf.net)... 52.84.102.85, 52.84.102.87, 52.84.102.28, ...
+Connecting to artifacts.picoctf.net (artifacts.picoctf.net)|52.84.102.85|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1278 (1.2K) [application/octet-stream]
+Saving to: ‘code.py’
+
+code.py                                   100%[===================================================================================>]   1.25K  --.-KB/s    in 0s      
+
+2025-02-25 10:47:26 (22.1 MB/s) - ‘code.py’ saved [1278/1278]
+
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/Codebook]
+└─$ wget https://artifacts.picoctf.net/c/1/codebook.txt
+--2025-02-25 10:47:35--  https://artifacts.picoctf.net/c/1/codebook.txt
+Resolving artifacts.picoctf.net (artifacts.picoctf.net)... 52.84.102.85, 2600:9000:2054:b400:16:5ec5:2840:93a1, 2600:9000:2054:6400:16:5ec5:2840:93a1, ...
+Connecting to artifacts.picoctf.net (artifacts.picoctf.net)|52.84.102.85|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27 [application/octet-stream]
+Saving to: ‘codebook.txt’
+
+codebook.txt                              100%[===================================================================================>]      27  --.-KB/s    in 0s      
+
+2025-02-25 10:47:37 (29.5 MB/s) - ‘codebook.txt’ saved [27/27]
+
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/Codebook]
+└─$ ls
+code.py  codebook.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/Codebook]
+└─$ chmod +x code.py  
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/Codebook]
+└─$ ls
+code.py  codebook.txt
+                                                                                                                                                                      
+┌──(brian㉿BRIAN)-[~/Desktop/Codebook]
+└─$ python2 code.py
+picoCTF{c0d3b00k_455157_d9aa2df2}
+                                     
